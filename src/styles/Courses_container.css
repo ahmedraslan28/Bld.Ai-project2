@@ -1,0 +1,26 @@
+.courses-header-text {
+  width: 55%;
+}
+.courses-header-text .title {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 15px;
+}
+.courses-header-text .details {
+  font-size: 14px;
+  line-height: 22px;
+  color: rgba(0, 0, 0, 0.839);
+  padding-bottom: 25px;
+}
+.Explore-btn {
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 20px; 
+  cursor: pointer;
+  border: 1px solid black;
+  background-color: white;
+  color: black;
+}
+.Explore-btn:hover {
+  background-color: rgba(128, 128, 128, 0.174);
+}

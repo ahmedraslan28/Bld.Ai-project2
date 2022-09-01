@@ -1,0 +1,90 @@
+const header_data = {
+  tit: "Expand your career opportunities with Python",
+  disc: "Take one of Udemy's range of python courses and learn how to code using this incredibly useful language.its simple syntax and readability makes python perfect for Flask, Django, data Science, and machine learning. You'll learn how to build everything from games to websites to apps. Choose from a range of courses that appeal to...",
+  topic: "python",
+};
+
+const courses_data = [
+  {
+    id: 0,
+    img: "https://i.ibb.co/Dw37Xv1/course-5.png",
+    title: "Learn Python: The Complete Python Programming Course",
+    author: "Avinash Jain, The Codex",
+    rate: 4.4,
+    draw_star: [
+      "checked",
+      "checked",
+      "checked",
+      "checked",
+      "-half-full checked",
+    ],
+    students: "(2,876)",
+    price: "E£199.99",
+  },
+  {
+    id: 1,
+    img: "https://i.ibb.co/nQByBb4/course-4.png",
+    title: "Learning Python for Data Analysis and Visualization",
+    author: "Jose Portilla",
+    rate: 4.4,
+    draw_star: [
+      "checked",
+      "checked",
+      "checked",
+      "checked",
+      "-half-full checked",
+    ],
+    students: "(17,984)",
+    price: "E£269.99",
+  },
+  {
+    id: 2,
+    img: "https://i.ibb.co/Rp0J9BT/course-3.png",
+    title: "Python for Beginners - Learn Programming from scratch",
+    author: "Edwin Diaz, Coding Faculty Solutions",
+    rate: 4.4,
+    draw_star: [
+      "checked",
+      "checked",
+      "checked",
+      "checked",
+      "-half-full checked",
+    ],
+    students: "(1,766)",
+    price: "E£199.99",
+  },
+  {
+    id: 3,
+    img: "https://i.ibb.co/L12FpxC/course-2.png",
+    title: "Learn Python: Python for Beginners",
+    author: "Abrar Hussain",
+    rate: 4.3,
+    draw_star: [
+      "checked",
+      "checked",
+      "checked",
+      "checked",
+      "-half-full checked",
+    ],
+    students: "(2,767)",
+    price: "E£199.99",
+  },
+  {
+    id: 4,
+    img: "https://i.ibb.co/n60h96t/course-1.png",
+    title: "Python Beyond the Basics - Object-Oriented Programming",
+    author: "Infinite Skills",
+    rate: 4.4,
+    draw_star: [
+      "checked",
+      "checked",
+      "checked",
+      "checked",
+      "-half-full checked",
+    ],
+    students: "(2,929)",
+    price: "E£229.99",
+  },
+];
+
+export { header_data, courses_data };
