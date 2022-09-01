@@ -1,0 +1,36 @@
+.checked {
+  color: orange;
+}
+.course-preview-container {
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  column-gap: 10px;
+}
+.course-img img {
+  width: 100%;
+  border: 1px solid rgb(214, 214, 214);
+}
+.course-info div {
+  padding: 5px 0 0 0;
+  font-weight: bold;
+}
+.course-info .course-author, 
+.course-info .students {
+  font-size: 13px;
+  color: gray;
+}
+@media screen and (max-width: 770px) {
+  .course-preview-container{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+}
+@media screen and (max-width: 700px) {
+  .course-preview-container{
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+}
+@media screen and (max-width: 590px){
+  .course-preview-container{
+    grid-template-columns: 1fr;
+  }
+}
