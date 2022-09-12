@@ -12,7 +12,7 @@ function CoursePage() {
   const { data } = useContext(CourseContext);
   const { summary } = useContext(CourseContext);
   const { review } = useContext(CourseContext);
-  // get the data index of the current course from the fetched data
+  // get the index of the current course from the fetched data
   const getidx = (arr, val) => {
     for (let i = 0; i < arr.length; i++) {
       if (arr[i].id == val) return i;
