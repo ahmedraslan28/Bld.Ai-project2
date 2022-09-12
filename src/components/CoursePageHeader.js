@@ -62,7 +62,7 @@ function CoursePageHeader({ obj_sum, obj_data, CalcRate }) {
               {obj_sum.has_closed_caption ? (
                 <div className="subtitle icon-flx">
                   <MdClosedCaption />
-                  <div>{obj_sum.caption_languages}</div>
+                  <div>English</div>
                 </div>
               ) : null}
             </div>

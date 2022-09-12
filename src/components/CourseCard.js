@@ -50,7 +50,7 @@ function CourseCard({ idx }) {
           <span className="course-price">
             {arr[idx].price.discount_price.price_string}
           </span>
-          <span classNameName="course-price old">
+          <span className="course-price old">
             {arr[idx].price.list_price.price_string}
           </span>
         </div>

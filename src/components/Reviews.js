@@ -23,7 +23,7 @@ function Reviews({ obj_rev, CalcRate }) {
           style={{ color: "white" }}
         ></i>
       </button>
-      <button className="all-rating">All Rating</button>
+      {/* <button className="all-rating">All Rating</button> */}
       {reviews.slice(0, numberOfItems).map((review, index) => {
         return <Review key={index} review={review} CalcRate={CalcRate} />;
       })}
