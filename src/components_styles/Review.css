@@ -153,3 +153,10 @@
   border: 1px solid black;
   font-weight: 600;
 }
+.Reviews h2 {
+  font-size: 25px;
+  font-weight: 700;
+}
+.showMore:hover {
+  background-color: rgba(180, 170, 170, 0.206);
+}
