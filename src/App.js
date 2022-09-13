@@ -1,13 +1,13 @@
-import Nav from "./components/Nav";
-import axios from "axios";
 import { React, useState, useEffect } from "react";
 import { CourseContext } from "./Contexts/CoursesContext";
-import CoursePage from "./components/CoursePage";
-import { Routes, Route, Link, useParams } from "react-router-dom";
-import Home from "./components/Home";
-import Footer from "./components/Footer";
+import { Routes, Route } from "react-router-dom";
+import axios from "axios";
+import Nav from "./components/Widgets/Nav";
+import Footer from "./components/Widgets/Footer";
+import Home from "./pages/Home/Home";
+import CoursePage from "./pages/CoursePage/CoursePage";
+import LoadingSpinner from "./components/Atoms/LoadingSpinner";
 import "../src/App.css";
-import * as objects from "./components/CoursePage";
 function App() {
   const [data, setdata] = useState([]);
   const [summary, setsummary] = useState([]);
@@ -28,7 +28,7 @@ function App() {
   if (summary.length && data.length && review.length) {
     return (
       <>
-        <Nav searchVal={searchVal} setSearchVal={setSearchVal} />
+        <Nav setSearchVal={setSearchVal} />
         <CourseContext.Provider value={{ data, summary, review }}>
           <Routes>
             <Route path="/" element={<Home searchVal={searchVal} />} />
@@ -39,13 +39,7 @@ function App() {
       </>
     );
   } else {
-    return (
-      <div class="d-flex justify-content-center mt-4">
-        <div class="spinner-border" role="status">
-          <span class="sr-only">Loading...</span>
-        </div>
-      </div>
-    );
+    return <LoadingSpinner />;
   }
 }
 
