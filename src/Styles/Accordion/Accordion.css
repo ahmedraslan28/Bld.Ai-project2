@@ -8,7 +8,8 @@
   margin-left: 10px;
 }
 .accordion-body li {
-  margin-top: 15px;
+  display: flex;
+  margin-bottom: 30px;
 }
 
 .try {
@@ -42,11 +43,39 @@
   font-weight: bold;
   border: none;
 }
+.titleTime .title {
+  width: 80%;
+}
+.accordion-body .icon {
+  margin-left: -26px;
+  margin-right: 15px;
+}
+.titleTime {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  margin-top: -4.8px;
+}
+.PreviewTime {
+  display: flex;
+  flex: 1;
+  justify-content: space-between;
+}
 @media only screen and (max-width: 700px) {
   .try {
     flex-direction: column;
   }
   .try2 {
     margin-top: 10px;
+  }
+  .preview,
+  .empty {
+    display: none;
+  }
+  .titleTime .title {
+    width: fit-content;
+  }
+  .PreviewTime {
+    flex: none;
   }
 }

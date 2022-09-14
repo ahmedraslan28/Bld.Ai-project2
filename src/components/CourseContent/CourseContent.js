@@ -2,6 +2,8 @@ import React from "react";
 import Accordion from "../Accordion/Accordion";
 import "../../Styles/CoursePage/Coursepgheader.css";
 import "../../Styles/CoursePage/CourseContent.css";
+import { BsCheck } from "react-icons/bs";
+
 import parse from "html-react-parser";
 function CourseContent({ obj_data }) {
   return (
