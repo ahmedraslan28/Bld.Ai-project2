@@ -1,5 +1,10 @@
 import { React, useState } from "react";
 import "../../Styles/CoursePage/SideCard.css";
+import { BsDisplay, BsPhone } from "react-icons/bs";
+import { HiOutlineFolderDownload } from "react-icons/hi";
+import { AiOutlineFile } from "react-icons/ai";
+import { IoTrophyOutline } from "react-icons/io5";
+import { BiInfinite } from "react-icons/bi";
 function SideCard({ getperc, obj_sum }) {
   const [x, setX] = useState(true);
   window.onscroll = () => {
@@ -37,15 +42,29 @@ function SideCard({ getperc, obj_sum }) {
         </button>
         <div className="gurantee">30-Day-Money-Back gurantee</div>
         <div className="course-include">
-          <span>This course includes:</span>
-          <ul>
-            <li>- {obj_sum.content_info_short} hours on-demand video</li>
-            <li>- 1 article</li>
-            <li>- 3 downloadable resources</li>
-            <li>- Full lifetime access</li>
-            <li>- Access on mobile and TV</li>
-            <li>- Certificate of completion</li>
-          </ul>
+          <p className="txt">This course includes:</p>
+          <p>
+            <BsDisplay className="icon" />
+            {obj_sum.content_info_short} hours on-demand video
+          </p>
+          <p>
+            <AiOutlineFile className="icon" />1 article
+          </p>
+          <p>
+            <HiOutlineFolderDownload className="icon" />3 downloadable resources
+          </p>
+          <p>
+            <BiInfinite className="icon" />
+            Full lifetime access
+          </p>
+          <p>
+            <BsPhone className="icon" />
+            Access on mobile and TV
+          </p>
+          <p>
+            <IoTrophyOutline className="icon" />
+            Certificate of completion
+          </p>
         </div>
         <div className="flx">
           <a href="#">Share</a>

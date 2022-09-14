@@ -58,20 +58,11 @@
   font-weight: light;
   color: rgb(134, 131, 131);
 }
-.course-include ul {
-  padding: 0;
-}
-.course-include li {
-  list-style: none;
-  font-size: 14px;
-  font-weight: 400;
-}
 .course-include {
-  margin-top: 20px;
+  margin-top: 5px;
 }
-.course-include span {
+.course-include .txt {
   margin-bottom: 5px;
-  font-size: 16px;
 }
 .flx {
   display: flex;
@@ -80,6 +71,7 @@
 }
 .cont {
   padding: 20px;
+  padding-top: 5px;
   border-top: 1px solid rgba(74, 73, 73, 0.469);
 }
 .cont div {
@@ -88,6 +80,14 @@
 .cont p {
   font-size: 14px;
   font-weight: lighter;
+}
+.course-include .icon {
+  margin-right: 10px;
+}
+.course-include p {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 8px;
 }
 @media only screen and (max-width: 1080px) {
   .card {
