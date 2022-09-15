@@ -37,14 +37,15 @@ footer .last {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   column-gap: 70px;
-  row-gap: 6px;
+  row-gap: 9px;
   font-size: 14px;
   font-weight: 400;
 }
-.foot-categories a {
+.foot-categories p {
   color: white;
+  margin: 0;
 }
-.foot-categories a:hover {
+.foot-categories p:hover {
   text-decoration: underline;
 }
 footer .categories-btn {

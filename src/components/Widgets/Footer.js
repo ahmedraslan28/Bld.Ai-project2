@@ -53,21 +53,21 @@ function Footer() {
       <div className="others">
         <div className="categories-btn">
           <div className="foot-categories">
-            <a className="cat-a">Udemy Business</a>
-            <a className="cat-a"> Careers</a>
-            <a className="cat-a">Terms</a>
-            <a className="cat-a">Teach on Udemy</a>
-            <a className="cat-a">Blog</a>
-            <a className="cat-a">Privacy policy</a>
-            <a className="cat-a">Get the app</a>
-            <a className="cat-a">Help and Support</a>
-            <a className="cat-a">Cookie settings</a>
-            <a className="cat-a">About us</a>
-            <a className="cat-a">Affiliate</a>
-            <a className="cat-a">Sitemap</a>
-            <a className="cat-a">Contact us</a>
-            <a className="cat-a">Investors</a>
-            <a className="cat-a">Accessibility statement</a>
+            <p className="cat-a">Udemy Business</p>
+            <p className="cat-a"> Careers</p>
+            <p className="cat-a">Terms</p>
+            <p className="cat-a">Teach on Udemy</p>
+            <p className="cat-a">Blog</p>
+            <p className="cat-a">Privacy policy</p>
+            <p className="cat-a">Get the app</p>
+            <p className="cat-a">Help and Support</p>
+            <p className="cat-a">Cookie settings</p>
+            <p className="cat-a">About us</p>
+            <p className="cat-a">Affiliate</p>
+            <p className="cat-a">Sitemap</p>
+            <p className="cat-a">Contact us</p>
+            <p className="cat-a">Investors</p>
+            <p className="cat-a">Accessibility statement</p>
           </div>
           <div className="foot-btn">
             <button>
