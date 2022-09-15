@@ -12,7 +12,7 @@ function CoursesContainer({ searchVal }) {
     course.title.toLowerCase().includes(searchVal.toLowerCase())
   );
   return (
-    <div class="course-preview-container">
+    <div className="course-preview-container">
       {Filtered_Courses.map((course, index) => {
         return (
           <Link key={index} to={`/course/${course.id}`}>
