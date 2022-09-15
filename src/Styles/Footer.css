@@ -1,47 +1,92 @@
 footer {
-  background-color: #1c1d1f;
-  padding: 1px;
+  background-color: #141415;
+  color: white;
   margin-top: 25px;
 }
-.container-top {
-  margin-left: 5%;
-}
 .foot-title {
-  color: white;
-  border-bottom: 1px solid gray;
-  padding-bottom: 2%;
-  font-weight: bold;
-  font-size: 20px;
-  padding: none;
-  padding-top: 2%;
+  padding: 12px 48px;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 19px;
+  font-weight: 700;
 }
-.foot-title p {
-  display: inline;
-  padding-right: 3%;
+.foot-title-txt {
+  padding: 12px 0;
 }
-.foot-img {
-  margin-right: 3%;
+.foot-title-imgs img {
+  margin: 12px 0;
+  margin-right: 24px;
 }
-.footer-catiogreis {
-  display: inline-grid;
+footer .last {
+  margin-right: 0;
+}
+.foot-title a {
+  margin-left: 4px;
+  color: #cec0fc;
+}
+.foot-title a:hover {
+  text-decoration: underline;
+}
+.others {
+  padding: 24px 48px;
+  padding-bottom: 0;
+}
+.foot-categories {
+  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-left: 4%;
-  width: 50%;
+  column-gap: 70px;
+  row-gap: 6px;
+  font-size: 14px;
+  font-weight: 400;
 }
-.cat-a {
+.foot-categories a {
   color: white;
-  margin-left: 5%;
-  padding-top: 2%;
 }
-.img-log {
-  padding-top: 2%;
-  padding-left: 5%;
-  width: 200px;
+.foot-categories a:hover {
+  text-decoration: underline;
 }
-@media screen and (max-width: 920px) {
-  .footer-catiogreis {
-    grid-template-columns: 1fr 1fr;
-    padding: 2% 4%;
-    width: 100%;
+footer .categories-btn {
+  display: flex;
+  justify-content: space-between;
+}
+.foot-btn span {
+  margin-left: 10px;
+}
+.foot-btn button {
+  padding: 5px 10px;
+  padding-right: 35px;
+  background-color: #141415;
+  color: white;
+}
+.foot-btn button:hover {
+  background-color: #3b3a3a;
+}
+.img-copyrights {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 64px;
+  padding-bottom: 32px;
+}
+.copyright {
+  font-size: 12px;
+  font-weight: 400;
+}
+@media screen and (max-width: 1320px) {
+  .foot-title {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+@media screen and (max-width: 800px) {
+  .foot-categories {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 750px) {
+  .foot-title {
+    font-size: 16px;
   }
 }
