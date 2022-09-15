@@ -14,35 +14,35 @@ function Footer() {
         </div>
         <div className="foot-title-imgs">
           <img
-            class="foot-img"
+            className="foot-img"
             alt="Nasdaq"
             height="44"
             width="115"
             src="https://s.udemycdn.com/partner-logos/v4/nasdaq-light.svg"
           ></img>
           <img
-            class="foot-img"
+            className="foot-img"
             alt="Volkswagen"
             height="44"
             width="44"
             src="https://s.udemycdn.com/partner-logos/v4/volkswagen-light.svg"
           ></img>
           <img
-            class="foot-img"
+            className="foot-img"
             alt="Box"
             height="44"
             width="67"
             src="https://s.udemycdn.com/partner-logos/v4/box-light.svg"
           ></img>
           <img
-            class="foot-img"
+            className="foot-img"
             alt="NetApp"
             height="44"
             width="115"
             src="https://s.udemycdn.com/partner-logos/v4/netapp-light.svg"
           ></img>
           <img
-            class="foot-img last"
+            className="foot-img last"
             alt="Eventbrite"
             height="44"
             width="115"
@@ -53,21 +53,21 @@ function Footer() {
       <div className="others">
         <div className="categories-btn">
           <div className="foot-categories">
-            <a class="cat-a">Udemy Business</a>
-            <a class="cat-a"> Careers</a>
-            <a class="cat-a">Terms</a>
-            <a class="cat-a">Teach on Udemy</a>
-            <a class="cat-a">Blog</a>
-            <a class="cat-a">Privacy policy</a>
-            <a class="cat-a">Get the app</a>
-            <a class="cat-a">Help and Support</a>
-            <a class="cat-a">Cookie settings</a>
-            <a class="cat-a">About us</a>
-            <a class="cat-a">Affiliate</a>
-            <a class="cat-a">Sitemap</a>
-            <a class="cat-a">Contact us</a>
-            <a class="cat-a">Investors</a>
-            <a class="cat-a">Accessibility statement</a>
+            <p className="cat-a">Udemy Business</p>
+            <p className="cat-a"> Careers</p>
+            <p className="cat-a">Terms</p>
+            <p className="cat-a">Teach on Udemy</p>
+            <p className="cat-a">Blog</p>
+            <p className="cat-a">Privacy policy</p>
+            <p className="cat-a">Get the app</p>
+            <p className="cat-a">Help and Support</p>
+            <p className="cat-a">Cookie settings</p>
+            <p className="cat-a">About us</p>
+            <p className="cat-a">Affiliate</p>
+            <p className="cat-a">Sitemap</p>
+            <p className="cat-a">Contact us</p>
+            <p className="cat-a">Investors</p>
+            <p className="cat-a">Accessibility statement</p>
           </div>
           <div className="foot-btn">
             <button>

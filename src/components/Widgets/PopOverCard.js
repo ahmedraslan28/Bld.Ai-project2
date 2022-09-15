@@ -6,7 +6,7 @@ function PopOverCard({ summary }) {
     <div className="course-Popover">
       <h2 style={{ fontWeight: "bold" }}>{summary.title}</h2>
       <p>{`Update ${summary.last_update_date}`}</p>
-      <p className>
+      <p>
         <span>{`${summary.content_info} . `}</span>
         <span>{`${summary.instructional_level} . Subtitle`}</span>
       </p>
@@ -14,13 +14,13 @@ function PopOverCard({ summary }) {
       <div className="pop-buttons">
         <div className="course-objective">
           {summary.objectives_summary.map((el, i) => {
-            return parse(`<p id=${i}> &#10003; ${el}</p>`);
+            return parse(`<p key=${i}> &#10003; ${el}</p>`);
           })}
         </div>
         <button className="pop-add-cart">Add to cart</button>
 
         <button className="pop-fav">
-          <i class="fa fa-heart-o" style={{ fontSize: "25px" }}></i>
+          <i className="fa fa-heart-o" style={{ fontSize: "25px" }}></i>
         </button>
       </div>
     </div>
